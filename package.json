@@ -1,0 +1,25 @@
+{
+  "name": "cypress-typescript-sandbox",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "open": "cypress open"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11",
+    "typescript": "^5.2.2"
+  },
+  "description": "Learning cypess with typescript",
+  "main": "app.js",
+  "devDependencies": {
+    "cypress": "^13.2.0"
+  },
+  "author": "balart40@hotmail.com",
+  "license": "ISC"
+}

@@ -8,7 +8,7 @@ import {
     dismissCookiePolicy,
     verifyCookiePolicyPresence
 } from '../../integration/src/steps/cypress-io-cookiePolicy';
-import { beforeEach } from 'mocha';
+//import { beforeEach } from 'mocha';
 
 
 describe('Homepage', () => {

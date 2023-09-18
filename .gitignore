@@ -8,4 +8,4 @@ logs/
 testresults/
 screenshots/
 package-lock.json
-cypress/*.js
+cypress/

@@ -2,8 +2,6 @@ const selectors = {
     // div class=" osano-cm-dialog__content osano-cm-content "
     cookiePolicyBanner: 'div[class=" osano-cm-dialog__content osano-cm-content "]',
     //<button class=" osano-cm-dialog__close osano-cm-close ">
-    //cookiePolicyBannerButton: '#onetrust-accept-btn-handler'
-    //<button class=" osano-cm-dialog__close osano-cm-close "
     cookiePolicyBannerButton: 'button[class=" osano-cm-dialog__close osano-cm-close "]'
 };
 

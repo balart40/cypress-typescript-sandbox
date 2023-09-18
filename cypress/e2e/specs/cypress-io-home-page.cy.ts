@@ -1,15 +1,18 @@
-import { clickOnNextButton,
+import {
+    clickOnNextButton,
     clickOnPreviousButton,
-    verifyCarouselPresence
+    verifyCarouselPresence,
+    verifyVideoPresence
 } from '../../integration/src/steps/cypress-io-home-page-steps';
 import {
     dismissCookiePolicy,
     verifyCookiePolicyPresence
 } from '../../integration/src/steps/cypress-io-cookiePolicy';
 
+
 describe('Homepage', () => {
 
-    before(() => {
+    beforeEach(() => {
         cy.visit('https://cypress.io');
     });
 
@@ -18,19 +21,19 @@ describe('Homepage', () => {
         dismissCookiePolicy();
     });
 
-    /**
+
     it('Should include an introduction video', () => {
-
+        verifyVideoPresence();
     });
-
+    /**
     it('Should include a list of top features', () => {
 
     });
-
+     **/
     it('Should have controllable carousels', () => {
         verifyCarouselPresence();
         clickOnNextButton();
         clickOnPreviousButton();
     });
-     **/
+
 });

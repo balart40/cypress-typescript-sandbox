@@ -7,8 +7,7 @@ Repository to test Cypress in conjunction with cypress
   - [Medium Link](https://ganeshsirsi.medium.com/how-to-set-up-cypress-and-typescript-end-to-end-test-automation-framework-from-scratch-step-by-step-b4f887e0646)
 - Cypress: Getting Started
   - [Medium link](https://ganeshsirsi.medium.com/how-to-set-up-cypress-and-typescript-end-to-end-test-automation-framework-from-scratch-step-by-step-b4f887e0646)
-- Educative IO intro to typescript
-  - [Link](Learn TypeScript: The Complete Course for Beginners
-    )
+- Educative IO: Learn TypeScript: The Complete Course for Beginners
+  - [Link](https://www.educative.io/courses/learn-typescript-complete-course)
 - Educative IO: Front End Testing with Cypress
   - [Link](https://www.educative.io/courses/frontend-testing-cypress/)

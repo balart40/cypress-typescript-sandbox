@@ -29,4 +29,12 @@ export class InsifyCareer {
         cy.get('#vacancies').scrollIntoView().should('be.visible')
     }
 
+    writeOnSearchJob(jobTitle: string) {
+        cy.get('input[data-testid="search"]').type(jobTitle)
+    }
+
+    acceptOblivion() {
+        cy.contains('h2', 'No jobs found for "SDET"').should('be.visible');
+
+    }
 }

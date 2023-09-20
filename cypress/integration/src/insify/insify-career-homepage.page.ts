@@ -16,4 +16,17 @@ export class InsifyCareer {
         cy.get('button[data-testid="button-decline"]').click()
         return cy.get(selectors.cookiePolicyBanner).should('not.be.visible')
     }
+
+    selectAmsterdan() {
+        //cy.get('[aria-label=Location]').select('Amsterdan')
+        //cy.get('.multiselect__input[placeholder="Location"]').click()
+        cy.get('.multiselect__tags').contains('Location').click();
+        //cy.get('.option-class-for-location').contains('New York').click();
+        cy.get('.multiselect__option').contains('Amsterdam').should('be.visible').click();
+    }
+
+    searchJobOpeningsSection() {
+        cy.get('#vacancies').scrollIntoView().should('be.visible')
+    }
+
 }
